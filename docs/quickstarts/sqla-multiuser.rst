@@ -319,7 +319,7 @@ are scoped to individual users.
             flash("Successfully signed in with GitHub.")
 
         # Disable Flask-Dance's default behavior for saving the OAuth token
-        return False)
+        return False
 
 This code hooks into the :data:`~flask_dance.consumer.oauth_authorized` signal,
 which is triggered when a user successfully completes the OAuth dance.
